@@ -29,6 +29,9 @@ public class AbstractComponent {
 	
 	@FindBy(css = "[routerlink*='myorders']")
 	WebElement orderHeader;
+	
+	@FindBy(Css = "[routerlink*='cart']")
+	WebElement test;
 
 
 	public void waitForElementToAppear(By findBy) {
