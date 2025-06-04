@@ -77,5 +77,11 @@ public class AbstractComponent {
 		CartPage cartPage = new CartPage(driver);
 		return cartPage;
 	}
+	public CartPage erty()
+	{
+		cartHeader.click();
+		CartPage cartPage = new CartPage(driver);
+		return cartPage;
+	}
 
 }
