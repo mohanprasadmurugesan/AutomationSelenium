@@ -48,6 +48,8 @@ public class AbstractComponent {
 
 	}
 	
+	//Testing purpose
+	
 	public CartPage goToCartPage()
 	{
 		cartHeader.click();
