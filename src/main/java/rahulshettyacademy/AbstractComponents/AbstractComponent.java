@@ -70,5 +70,12 @@ public class AbstractComponent {
 //		wait.until(ExpectedConditions.invisibilityOf(ele));
 
 	}
+	
+	public CartPage rtTest()
+	{
+		cartHeader.click();
+		CartPage cartPage = new CartPage(driver);
+		return cartPage;
+	}
 
 }
